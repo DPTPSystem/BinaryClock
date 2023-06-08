@@ -51,8 +51,6 @@ Shiftergiszter: 74HC595
 Darlington sor: ULN2003
 PNP tranzisztor: BC 807-16
 
-![DPTP System](https://github.com/DPTPSystem/BinaryClock/blob/master/images/131744_2014-12-01_15_21_21.jpg "DPTP System")
-
 # Program
 A program rém egyszerű, PIC16F628-as timer2-es 1mS megszakításra van állítva, így minden 1000-nél 1S-nél ( 1 másodpercnél ) emeli a 
 szükséges változókat. Másodperc, majd a perc és óra. Ennek megoldására egy egyszerű if-es feltétel használók.
